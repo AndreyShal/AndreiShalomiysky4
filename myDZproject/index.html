@@ -1,39 +1,70 @@
 <!DOCTYPE html>
-<!-- Оболочка документа, указываем язык содержимого -->
 <html lang="ru">
-	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
-	<head>
-		<!-- Заголовок страницы в браузере -->
-		<title>FLEXBOX_SHALOM</title>
-		<!-- Адаптив -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-		<!-- Подключаем CSS -->
-		<link rel="stylesheet" href="css/style.css"/>
-		<!-- Кодировка страницы -->
-		<meta charset="UTF-8">
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="content">
-				<div class="hi">
-					<div class='container'>
-						<div class="hi__row">
-							<div class="hi__body">
-								<div class="hi__title">Привет, друг!</div>
-								<ul class="hi__list">
-									<li>У тебя все получится!</li>
-									<li>Никогда не здавайся!</li>
-									<li>Сегодня ты уже знаешь больше чем вчера!</li>
-									<li>Спасибо тебе за поддержку!</li>
-								</ul>
-							</div>
-							<div class="hi__image">
-								<img src="img/image.jpg" alt="">
-							</div>
-						</div>
-					</div>
+
+<head>
+	<title>KROHALS</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+	<link rel="icon" href="data:;base64,=">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes,initial-scale=1">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="container__header-top">
+				<div class="wrapper__botton-menu">
+					<div class="botton__menu"></div>
+				</div>
+				<div class="wrapper__search">
+					<form>
+						<input type="text" placeholder="Поиск">
+						<button type="submit">
+							<img src="img/header/search.svg" alt="">
+						</button>
+					</form>
 				</div>
 			</div>
+			<ul class="menu__botton">
+				<li><a href="">Главная</a></li>
+				<span>&#129042;</span>
+				<li><a href="">Каталог</a></li>
+				<span>&#129042;</span>
+				<li><a href="">Женщинам</a></li>
+				<span>&#129042;</span>
+				<li><a href="">Весь асортимент</a></li>
+			</ul>
 		</div>
-	</body>
+		<div class="assortment__all">
+			<div class="assortment__all-title">
+				<h1>Весь ассортимент</h1>
+			</div>
+			<div class="swiper swiper1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+
+					</div>
+					<div class="swiper-slide">
+
+					</div>
+					<div class="swiper-slide">
+
+					</div>
+					<div class="swiper-slide">
+
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="swiper/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
 </html>
