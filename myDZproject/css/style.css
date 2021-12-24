@@ -196,7 +196,67 @@ button {
 .assortment__all-title {
 	margin-bottom: 20px;
 }
+.assortiment__all-container {
+	width: 278px;
+	height: auto;
+	margin-bottom: 30px;
+	border: 0.5px solid #c0c0c0;
+}
+.swiper__assortiment-foto {
+	width: 100%;
+	height: 223px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.blackLeatherAndBlackSuede-1 {
+	background-image: url("../img/assortiment/suede/round/blackLeatherAndBlackSuede/1.jpg");
+}
+.blackLeatherAndBlackSuede-2 {
+	background-image: url("../img/assortiment/suede/round/blackLeatherAndBlackSuede/2.jpg");
+}
+.blackLeatherAndBlackSuede-3 {
+	background-image: url("../img/assortiment/suede/round/blackLeatherAndBlackSuede/3.jpg");
+}
+.blackLeatherAndBlackSuede-4 {
+	background-image: url("../img/assortiment/suede/round/blackLeatherAndBlackSuede/4.jpg");
+}
+.blackLeatherAndBlackSuede-5 {
+	background-image: url("../img/assortiment/suede/round/blackLeatherAndBlackSuede/5.jpg");
+}
+.swiper__assortiment-title {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.swiper__assortiment-line {
+	display: block;
+	width: 80%;
+	content: "";
+	opacity: 0.4;
+	border: 1px solid #c0c0c0;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.swiper__assortiment-prise {
+	text-align: center;
+}
+.swiper1 .swiper-pagination span {
+	display: none;
+}
+.swiper1 .swiper-button-prev {
+	display: none;
+}
+.swiper1 .swiper-button-next {
+	display: none;
+}
 /*....................................................................................*/
 h1 {
 	font-size: 30px;
+}
+h2 {
+	font-size: 25px;
+}
+h3 {
+	font-size: 20px;
 }
