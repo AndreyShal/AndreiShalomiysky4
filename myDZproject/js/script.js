@@ -1,3 +1,29 @@
+"use strict"
+// ............................................................................................
+let menuElem = document.getElementById('sweeties');
+let titleElem = menuElem.querySelector('.title');
+
+titleElem.onclick = function () {
+    menuElem.classList.toggle('open');
+};
+///////////////////////////////////////////////////////////////////
+function toggleMe(x) {
+
+    if (!x) return true;
+
+    if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+
+    } else {
+        x.style.display = "none";
+    }
+
+    return true;
+}
+document.getElementById("bags__form-nav").addEventListener('click', () => toggleMe(document.getElementById("bags__form-inside")));
+document.getElementById("bags__color-nav").addEventListener('click', () => toggleMe(document.getElementById("bags__color-inside")));
+document.getElementById("bags__material-nav").addEventListener('click', () => toggleMe(document.getElementById("bags__material-inside")));
+
 /* ..........................................SWIPER СЛАЙДЕР НАЧАЛО........................ */
 var swiper1 = new Swiper('.swiper1', {
     navigation: {
