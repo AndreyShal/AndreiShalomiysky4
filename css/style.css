@@ -166,10 +166,6 @@ body {
 .menu__absolute ul li .nav1-1 li {
 	margin-bottom: 14px;
 }
-/* .bottom__menu {
-	max-width: 184px;
-	height: 44px;
-} */
 .nav1-1 {
 	display: none;
 }
@@ -248,13 +244,13 @@ button {
 	margin-bottom: 20px;
 }
 .assortiment__all-container {
-	width: 278px;
+	width: 100%;
 	height: auto;
 	margin-bottom: 30px;
 	border: 0.5px solid #c0c0c0;
 }
 .swiper__assortiment-foto {
-	width: 100%;
+	width: 278px;
 	height: 223px;
 	background-repeat: no-repeat;
 	background-position: center center;

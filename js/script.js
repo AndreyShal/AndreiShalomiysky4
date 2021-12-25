@@ -47,12 +47,12 @@ var swiper1 = new Swiper('.swiper1', {
         },
         // when window width is >= 768px
         768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 10,
         },
         // when window width is >= 1378px
         1378: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             // spaceBetween: 100
         },
     }
