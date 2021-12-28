@@ -310,6 +310,12 @@ button {
 	}
 }
 @media screen and (min-width: 1378px) {
+	.wrapper__search {
+		width: 515px;
+	}
+	form {
+		border: 1px solid #c0c0c0;
+	}
 	.menu__botton {
 		width: 1030px;
 	}
