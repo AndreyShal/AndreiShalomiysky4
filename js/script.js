@@ -23,6 +23,19 @@ function toggleMe(x) {
 document.getElementById("bags__form-nav").addEventListener('click', () => toggleMe(document.getElementById("bags__form-inside")));
 document.getElementById("bags__color-nav").addEventListener('click', () => toggleMe(document.getElementById("bags__color-inside")));
 document.getElementById("bags__material-nav").addEventListener('click', () => toggleMe(document.getElementById("bags__material-inside")));
+
+// let bags__formInsideDSK = document.querySelectorAll(".bags__form-insideDSK li");
+// let bags__colorInsideDSK = document.querySelectorAll(".bags__color-insideDSK li");
+// let bags__materialInsideDSK = document.querySelectorAll(".bags__material-insideDSK li")
+// for (let i = 0; i < bags__formInsideDSK.length; i++) {
+//     document.getElementById("bags__form-navDSK").addEventListener('click', () => toggleMe(bags__formInsideDSK[i]));
+// }
+// for (let i = 0; i < bags__colorInsideDSK.length; i++) {
+//     document.getElementById("bags__color-navDSK").addEventListener('click', () => toggleMe(bags__colorInsideDSK[i]));
+// }
+// for (let i = 0; i < bags__materialInsideDSK.length; i++) {
+//     document.getElementById("bags__material-navDSK").addEventListener('click', () => toggleMe(bags__materialInsideDSK[i]));
+// }
 /////////////////////////////////////////////////////////////////////////////////////////////////
 /* ..........................................SWIPER СЛАЙДЕР НАЧАЛО........................ */
 var swiper1 = new Swiper('.swiper1', {
