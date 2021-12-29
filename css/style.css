@@ -343,6 +343,9 @@ button {
 	.wrapper__search {
 		width: 515px;
 	}
+	.wrapper__search input {
+		width: 500px;
+	}
 	form {
 		border: 1px solid #c0c0c0;
 	}
